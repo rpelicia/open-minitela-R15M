@@ -23,6 +23,7 @@ Exemplo código-aberto de script simples para controlar a "mini tela" do noteboo
 
    `nohup bash -c 'while true; do python3 ./minitela.py 1; sleep 5; done' > /dev/null 2>&1 &`
 
+
 ### Pré-requisitos
 Certifique-se de ter o PySerial instalado:
 
@@ -31,6 +32,7 @@ Certifique-se de ter o PySerial instalado:
 ou
 
 `sudo apt install python3-serial`
+
 
 ### Execução
 Dê permissão de execução ao script:
