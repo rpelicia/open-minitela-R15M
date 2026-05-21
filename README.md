@@ -5,7 +5,23 @@ Exemplo código-aberto de script simples para controlar a "mini tela" dos notebo
 - Controle brilho da tela ou desligue-a.
 - Escreva texto de até 100 caracteres ASCII ou monitore consumo de bateria.
 
-## Exemplos de uso
+## Instruções
+
+### Pré-requisitos
+Certifique-se de ter o PySerial instalado:
+
+`pip install pyserial`
+
+ou
+
+`sudo apt install python3-serial`
+
+### Execução
+Dê permissão de execução ao script:
+
+`chmod +x minitela.py`
+
+### Exemplos de uso
 
 1. **Desliga a mini tela:**
    
@@ -24,21 +40,3 @@ Exemplo código-aberto de script simples para controlar a "mini tela" dos notebo
    `nohup bash -c 'while true; do python3 ./minitela.py 1; sleep 5; done' > /dev/null 2>&1 &`
 
    <img src="foto_tela.jpg" alt="Minitela do Positivo R15M" width="400">
-
-
-
-### Pré-requisitos
-Certifique-se de ter o PySerial instalado:
-
-`pip install pyserial`
-
-ou
-
-`sudo apt install python3-serial`
-
-
-
-### Execução
-Dê permissão de execução ao script:
-
-`chmod +x minitela.py`
