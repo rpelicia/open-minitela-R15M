@@ -8,15 +8,19 @@ Exemplo código-aberto de script simples para controlar a "mini tela" do noteboo
 ## Exemplos de uso
 
 1. **Desliga a mini tela:**
+   
    `python3 ./minitela.py 0`
 
-2. **Coloca a minitela com 100% de brilho e escreve mensagem:**
+3. **Coloca a minitela com 100% de brilho e escreve mensagem:**
+   
    `python3 ./minitela.py 100 "Hello world"`
 
-3. **Coloca minitela em mínimo brilho e consulta informações sobre a bateria:**
+4. **Coloca minitela em mínimo brilho e consulta informações sobre a bateria:**
+
    `python3 ./minitela.py 1`
 
-4. **Coloca minitela em mínimo brilho e continuamente monitorar bateria em background a cada 5 segundos:**
+6. **Coloca minitela em mínimo brilho e continuamente monitorar bateria em background a cada 5 segundos:**
+
    `nohup bash -c 'while true; do python3 ./minitela.py 1; sleep 5; done' > /dev/null 2>&1 &`
 
 ### Pré-requisitos
