@@ -26,7 +26,11 @@ Exemplo código-aberto de script simples para controlar a "mini tela" do noteboo
 ### Pré-requisitos
 Certifique-se de ter o PySerial instalado:
 
-`pip install pyserial` ou `sudo apt install python3-serial`
+`pip install pyserial`
+
+ou
+
+`sudo apt install python3-serial`
 
 ### Execução
 Dê permissão de execução ao script:
