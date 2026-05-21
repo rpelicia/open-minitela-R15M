@@ -3,7 +3,7 @@
 Exemplo código-aberto de script simples para controlar a "mini tela" do notebook Positivo R15M no Linux (testado no Ubuntu 26.04).
 - Dispensa necessidade de instalação, rodar continuamente ou rodar no início do sistema.
 - Controle brilho da tela ou desligue-a.
-- Escreve texto de até 100 caracteres ASCII ou monitore consumo de bateria.
+- Escreva texto de até 100 caracteres ASCII ou monitore consumo de bateria.
 
 ## Exemplos de uso
 
