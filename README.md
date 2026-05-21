@@ -23,7 +23,7 @@ Exemplo código-aberto de script simples para controlar a "mini tela" do noteboo
 
    `nohup bash -c 'while true; do python3 ./minitela.py 1; sleep 5; done' > /dev/null 2>&1 &`
 
-   ![Minitela do Positivo R15M em funcionamento](foto_tela.jpg)
+   <img src="foto_tela.jpg" alt="Minitela do Positivo R15M" width="400">
 
 
 
